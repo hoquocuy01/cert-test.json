@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/blockcerts/v3"
+  ],
+  "id": "urn:uuid:8f12a340-99bb-[2026]-b8c1-1a2b3c4d5e6f",
+  "type": [
+    "VerifiableCredential",
+    "BlockcertsCredential"
+  ],
+  "issuer": {
+    "id": "https://hoquocuy.id.vn/issuer.json",
+    "name": "Học Viện Công Nghệ & Khai Thác Dữ Liệu"
+  },
+  "issuanceDate": "2026-09-14T00:00:00Z",
+  "credentialSubject": {
+    "id": "did:example:student001",
+    "name": "HỒ QUỐC UY",
+    "degree": "Kỹ Sư Hệ Thống Thông Tin & Chữ Ký Số"
+  },
+  "display": {
+    "content": "Chứng nhận Hồ Quốc Uy đã hoàn thành xuất sắc chương trình đào tạo."
+  },
+  "proof": {
+    "type": "MerkleProof2019",
+    "created": "2026-09-14T08:00:00Z",
+    "verificationMethod": "https://hoquocuy.id.vn/keys/public-key.json",
+    "proofPurpose": "assertionMethod",
+    "merkleRoot": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "targetHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "proofValue": "z3jG4...MzA1MmE4N2ZkNWQwZjVjYjI5ZWY5ZDRmYzA1YWY1"
+  }
+}
