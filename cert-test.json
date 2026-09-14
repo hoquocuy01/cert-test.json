@@ -3,7 +3,7 @@
     "https://www.w3.org/2018/credentials/v1",
     "https://w3id.org/blockcerts/v3"
   ],
-  "id": "urn:uuid:8f12a340-99bb-2026-b8c1-1a2b3c4d5e6f",
+  "id": "urn:uuid:SV001",
   "type": [
     "VerifiableCredential",
     "BlockcertsCredential"
@@ -23,7 +23,7 @@
   },
   "issuanceDate": "2026-09-14T00:00:00Z",
   "credentialSubject": {
-    "id": "did:example:student001",
+    "id": "SV001",
     "name": "HỒ QUỐC UY",
     "degree": "Kỹ Sư Hệ Thống Thông Tin & Chữ Ký Số"
   },
