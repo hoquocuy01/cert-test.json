@@ -1,39 +1,39 @@
 {
-  "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/blockcerts/v3"
-  ],
-  "id": "urn:uuid:SV001",
-  "type": [
-    "VerifiableCredential",
-    "BlockcertsCredential"
-  ],
-  "issuer": {
-    "id": "https://raw.githubusercontent.com/hoquocuy01/cert-test.json/main/issuer.json",
-    "type": "Profile",
-    "name": "Học Viện Công Nghệ & Khai Thác Dữ Liệu",
-    "url": "https://hoquocuy.id.vn",
-    "email": "contact@hoquocuy.id.vn",
-    "publicKeys": [
-      {
-        "id": "ecdsa-koblitz-pubkey:0x12345",
-        "created": "2026-01-01T00:00:00Z"
-      }
-    ]
-  },
-  "issuanceDate": "2026-09-14T00:00:00Z",
-  "credentialSubject": {
-    "id": "SV001",
-    "name": "HỒ QUỐC UY",
-    "degree": "Kỹ Sư Hệ Thống Thông Tin & Chữ Ký Số"
-  },
-  "proof": {
-    "type": "MerkleProof2019",
-    "created": "2026-09-14T08:00:00Z",
-    "verificationMethod": "ecdsa-koblitz-pubkey:0x12345",
-    "proofPurpose": "assertionMethod",
-    "merkleRoot": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "targetHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "proofValue": "z3jG4...MzA1MmE4N2ZkNWQwZjVjYjI5ZWY5ZDRmYzA1YWY1"
-  }
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/blockcerts/v3"
+  ],
+  "id": "urn:uuid:SV001",
+  "type": [
+    "VerifiableCredential",
+    "BlockcertsCredential"
+  ],
+  "issuer": {
+    "id": "https://raw.githubusercontent.com/hoquocuy01/cert-test/main/issuer.json",
+    "type": "Profile",
+    "name": "Học Viện Công Nghệ & Khai Thác Dữ Liệu",
+    "url": "https://hoquocuy.id.vn",
+    "email": "contact@hoquocuy.id.vn",
+    "publicKeys": [
+      {
+        "id": "ecdsa-koblitz-pubkey:0x12345",
+        "created": "2026-01-01T00:00:00Z"
+      }
+    ]
+  },
+  "issuanceDate": "2026-09-14T00:00:00Z",
+  "credentialSubject": {
+    "id": "SV001",
+    "name": "HỒ QUỐC UY",
+    "degree": "Kỹ Sư Hệ Thống Thông Tin & Chữ Ký Số"
+  },
+  "proof": {
+    "type": "MerkleProof2019",
+    "created": "2026-09-14T08:00:00Z",
+    "verificationMethod": "ecdsa-koblitz-pubkey:0x12345",
+    "proofPurpose": "assertionMethod",
+    "merkleRoot": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "targetHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "proofValue": "z3jG4FULL_PROOF_VALUE_HERE"
+  }
 }
