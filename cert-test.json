@@ -3,7 +3,7 @@
     "https://www.w3.org/2018/credentials/v1",
     "https://w3id.org/blockcerts/v3"
   ],
-  "id": "urn:uuid:SV001",
+  "id": "https://hoquocuy.id.vn/cert/SV001",
   "type": [
     "VerifiableCredential",
     "BlockcertsCredential"
